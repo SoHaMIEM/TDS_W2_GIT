@@ -1,14 +1,17 @@
+main.yml
 name: 22f3002948@ds.study.iitm.ac.in
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: 22f3002948@ds.study.iitm.ac.in
-      run: echo "Hello, 22f3002948@ds.study.iitm.ac.in!"
+       - name: 22f3002948@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
