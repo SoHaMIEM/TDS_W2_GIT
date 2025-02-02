@@ -1,5 +1,14 @@
+name: 22f3002948@ds.study.iitm.ac.in
+
+on: [push, pull_request]
+
 jobs:
-  test:
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: 22f3002948@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run a sample action
+      run: echo "Hello, 22f3002948@ds.study.iitm.ac.in!"
