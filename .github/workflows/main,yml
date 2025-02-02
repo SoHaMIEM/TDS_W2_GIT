@@ -10,5 +10,5 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Run a sample action
+    - name: 22f3002948@ds.study.iitm.ac.in
       run: echo "Hello, 22f3002948@ds.study.iitm.ac.in!"
