@@ -1,4 +1,4 @@
-name: 22f3002948@ds.study.iitm.ac.in
+name: Daily Commit
 
 on:
   schedule:
@@ -15,11 +15,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 22f3002948@ds.study.iitm.ac.in
+      - name: Configure Git (22f3002948@ds.study.iitm.ac.in)
         run: |
-          git config --global user.name "22f3002948@ds.study.iitm.ac.in"
+          git config --global user.name "GitHub Action"
           git config --global user.email "22f3002948@ds.study.iitm.ac.in"
-          echo "22f3002948@ds.study.iitm.ac.in"
 
       - name: Make a Change
         run: |
